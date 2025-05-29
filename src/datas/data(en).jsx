@@ -18,20 +18,6 @@ let data_en = [
     explain:
       '혐기조의 인 방출을 위해 소요되는 유입수 내의 유기물질과 총인의 비',
     hNm: 'C/P비',
-    rgsdt: '2016-11-22',
-  },
-  {
-    eNm: 'COD/T-P ratios',
-    explain:
-      '혐기조의 인 방출을 위해 소요되는 유입수 내의 유기물질과 총인의 비',
-    hNm: 'C/P비',
-    rgsdt: '2023-10-10',
-  },
-  {
-    eNm: 'COD/T-P ratios',
-    explain:
-      '혐기조의 인 방출을 위해 소요되는 유입수 내의 유기물질과 총인의 비',
-    hNm: 'C/P비',
     rgsdt: '2023-10-10',
   },
   {
@@ -45,19 +31,7 @@ let data_en = [
     explain:
       '원수 중 분변오염현황을 파악하기 위하여 사용되는 분원성대장균군과 분원성연쇄사상균의 비율',
     hNm: 'FC/FS비',
-    rgsdt: '2016-11-22',
-  },
-  {
-    eNm: 'Fecal coliforms/Fecal streptococcus ratio',
-    explain:
-      '원수 중 분변오염현황을 파악하기 위하여 사용되는 분원성대장균군과 분원성연쇄사상균의 비율',
-    hNm: 'FC/FS비',
     rgsdt: '2023-10-10',
-  },
-  {
-    explain: '오수 유입에 따른 하천의 수질변화 상태를 4단계로 구분한 것.',
-    hNm: 'Whipple 4지대',
-    rgsdt: '2016-11-24',
   },
   {
     eNm: 'Whipple Method',

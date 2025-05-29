@@ -19,22 +19,6 @@ let data_ko_ga = [
     explain:
       'Ca2+, Mg2+ 등 2가 금속이온의 경도는 아니지만 Na+이나 K+같은 이온들이 비누소모량을 늘려 경도와 유사한 현상을 나타내는 작용 Test',
     hNm: '가경도',
-    rgsdt: '2016-04-15',
-  },
-  {
-    cNm: '假硬度',
-    eNm: 'pseudo hardness',
-    explain:
-      'Ca2+, Mg2+ 등 2가 금속이온의 경도는 아니지만 Na+이나 K+같은 이온들이 비누소모량을 늘려 경도와 유사한 현상을 나타내는 작용 Test',
-    hNm: '가경도',
-    rgsdt: '2023-10-16',
-  },
-  {
-    cNm: '假硬度',
-    eNm: 'pseudo hardness',
-    explain:
-      'Ca2+, Mg2+ 등 2가 금속이온의 경도는 아니지만 Na+이나 K+같은 이온들이 비누소모량을 늘려 경도와 유사한 현상을 나타내는 작용 Test',
-    hNm: '가경도',
     rgsdt: '2023-10-11',
   },
   {
@@ -142,13 +126,6 @@ let data_ko_ga = [
     eNm: 'trestle bridge',
     explain: '람사르 죽이세르 시파',
     hNm: '가대교',
-    rgsdt: '2016-11-23',
-  },
-  {
-    cNm: '架臺橋',
-    eNm: 'trestle bridge',
-    explain: '람사르 죽이세르 시파',
-    hNm: '가대교',
     rgsdt: '2023-09-18',
   },
   {
@@ -157,31 +134,9 @@ let data_ko_ga = [
     explain:
       '선박운행의 편의를 도모할 목적으로 교량의 중앙부를 위로 올리거나 좌우로 이동 가능하게 만든 교량',
     hNm: '가동교',
-    rgsdt: '2016-04-15',
-  },
-  {
-    cNm: '可動橋',
-    eNm: 'movable bridge',
-    explain:
-      '선박운행의 편의를 도모할 목적으로 교량의 중앙부를 위로 올리거나 좌우로 이동 가능하게 만든 교량',
-    hNm: '가동교',
     rgsdt: '2023-10-16',
   },
-  {
-    cNm: '可動橋',
-    eNm: 'movable bridge',
-    explain:
-      '선박운행의 편의를 도모할 목적으로 교량의 중앙부를 위로 올리거나 좌우로 이동 가능하게 만든 교량',
-    hNm: '가동교',
-    rgsdt: '2023-10-16',
-  },
-  {
-    eNm: 'movable dam',
-    explain:
-      '댐의 형식 중 구조적 형식으로 분류한 것으로 수문이 댐의 주체를 이루는 댐',
-    hNm: '가동댐',
-    rgsdt: '2016-04-15',
-  },
+
   {
     eNm: 'movable dam',
     explain:
@@ -189,21 +144,7 @@ let data_ko_ga = [
     hNm: '가동댐',
     rgsdt: '2023-10-16',
   },
-  {
-    eNm: 'movable dam',
-    explain:
-      '댐의 형식 중 구조적 형식으로 분류한 것으로 수문이 댐의 주체를 이루는 댐',
-    hNm: '가동댐',
-    rgsdt: '2023-09-12',
-  },
-  {
-    cNm: '可動洑',
-    eNm: 'movable weir',
-    explain:
-      '수위나 유량을 조절하기 위하여 유수단면 일부 또는 전부를 차단하고 그 높이를 조절할 수 있는 구조물',
-    hNm: '가동보',
-    rgsdt: '2016-04-15',
-  },
+
   {
     cNm: '可動洑',
     eNm: 'movable weir',
@@ -226,13 +167,7 @@ let data_ko_ga = [
     hNm: '가동식취수공',
     rgsdt: '2016-11-23',
   },
-  {
-    eNm: 'movable weir',
-    explain:
-      '수위나 유량을 조절하기 위하여 유수단면 일부 또는 전부를 차단하고 그 높이를 조절할 수 있는 구조물',
-    hNm: '가동웨어',
-    rgsdt: '2016-04-15',
-  },
+
   {
     eNm: 'movable weir',
     explain:

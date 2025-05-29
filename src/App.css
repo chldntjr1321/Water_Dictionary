@@ -2,10 +2,48 @@ html,
 body {
   display: flex;
   justify-content: center;
+  width: 100%;
+}
+html {
+  height: 100%;
 }
 
-.cardbox {
-  background: rgba(255, 166, 0, 0.228);
+html {
+  background-image: url('src/img/water.jpg');
+  background-size: cover;
+}
+.navtab {
+  background: rgb(216, 180, 240);
+  color: black;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.result {
   box-sizing: border-box;
-  padding: 10px;
+  background: #ffffffb3;
+  padding-bottom: 20px;
+}
+.resultbox {
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 80vh;
+  overflow: auto;
+}
+.cardbox {
+  background: #ffffff9c;
+  color: black;
+  box-sizing: border-box;
+  padding: 10px 0 10px 20px;
+  margin-bottom: 5px;
+}
+.footer {
+  background: #ffffffb3;
+  color: black;
+  display: flex;
+  justify-content: center;
+
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
 }
