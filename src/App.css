@@ -3,3 +3,9 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.cardbox {
+  background: rgba(255, 166, 0, 0.228);
+  box-sizing: border-box;
+  padding: 10px;
+}
