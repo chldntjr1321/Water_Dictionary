@@ -6,15 +6,12 @@ body {
 }
 html {
   height: 100%;
+  background: whitesmoke;
 }
 
-html {
-  background-image: url('src/img/water.jpg');
-  background-size: cover;
-}
 .navtab {
-  background: rgb(216, 180, 240);
-  color: black;
+  background: rgba(57, 159, 227, 0.756);
+  color: white;
   border-radius: 8px;
   margin-top: 10px;
 }
@@ -36,13 +33,23 @@ html {
   box-sizing: border-box;
   padding: 10px 0 10px 20px;
   margin-bottom: 5px;
+  border: 1px solid lightblue;
+}
+.kotitle {
+  font-size: larger;
+  font-weight: bold;
+}
+.entitle {
+  font-size: 14px;
+  font-weight: lighter;
+}
+.explain {
+  font-weight: 600;
 }
 .footer {
-  background: #ffffffb3;
   color: black;
   display: flex;
   justify-content: center;
-
   margin-top: 20px;
   font-size: 20px;
   font-weight: 500;

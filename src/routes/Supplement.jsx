@@ -47,82 +47,82 @@ function Supplement() {
           <Tab
             label="ㄱ"
             {...allyProps(0)}
-            sx={{ fontSize: '20px', color: 'black' }}
+            sx={{ fontSize: '15px', color: 'white' }}
           />
           <Tab
             label="ㄴ"
             {...allyProps(1)}
-            sx={{ fontSize: '20px', color: 'black' }}
+            sx={{ fontSize: '15px', color: 'white' }}
           />
           <Tab
             label="ㄷ"
             {...allyProps(2)}
-            sx={{ fontSize: '20px', color: 'black' }}
+            sx={{ fontSize: '15px', color: 'white' }}
           />
           <Tab
             label="ㄹ"
             {...allyProps(3)}
-            sx={{ fontSize: '20px', color: 'black' }}
+            sx={{ fontSize: '15px', color: 'white' }}
           />
           <Tab
             label="ㅁ"
             {...allyProps(4)}
-            sx={{ fontSize: '20px', color: 'black' }}
+            sx={{ fontSize: '15px', color: 'white' }}
           />
           <Tab
             label="ㅂ"
             {...allyProps(5)}
-            sx={{ fontSize: '20px', color: 'black' }}
+            sx={{ fontSize: '15px', color: 'white' }}
           />
           <Tab
             label="ㅅ"
             {...allyProps(6)}
-            sx={{ fontSize: '20px', color: 'black' }}
+            sx={{ fontSize: '15px', color: 'white' }}
           />
           <Tab
             label="ㅇ"
             {...allyProps(7)}
-            sx={{ fontSize: '20px', color: 'black' }}
+            sx={{ fontSize: '15px', color: 'white' }}
           />
           <Tab
             label="ㅈ"
             {...allyProps(8)}
-            sx={{ fontSize: '20px', color: 'black' }}
+            sx={{ fontSize: '15px', color: 'white' }}
           />
           <Tab
             label="ㅊ"
             {...allyProps(9)}
-            sx={{ fontSize: '20px', color: 'black' }}
+            sx={{ fontSize: '15px', color: 'white' }}
           />
           <Tab
             label="ㅋ"
             {...allyProps(10)}
-            sx={{ fontSize: '20px', color: 'black' }}
+            sx={{ fontSize: '15px', color: 'white' }}
           />
           <Tab
             label="ㅌ"
             {...allyProps(11)}
-            sx={{ fontSize: '20px', color: 'black' }}
+            sx={{ fontSize: '15px', color: 'white' }}
           />
           <Tab
             label="ㅍ"
             {...allyProps(12)}
-            sx={{ fontSize: '20px', color: 'black' }}
+            sx={{ fontSize: '15px', color: 'white' }}
           />
           <Tab
             label="ㅎ"
             {...allyProps(13)}
-            sx={{ fontSize: '20px', color: 'black' }}
+            sx={{ fontSize: '15px', color: 'white' }}
           />
           <Tab
             label="숫자"
             {...allyProps(14)}
-            sx={{ fontSize: '20px', color: 'black' }}
+            sx={{ fontSize: '15px', color: 'white' }}
           />
           <Tab
             label="ABC"
             {...allyProps(15)}
-            sx={{ fontSize: '20px', color: 'black' }}
+            sx={{ fontSize: '15px', color: 'white' }}
           />
         </Tabs>
 
@@ -222,11 +222,15 @@ function Card({ data }) {
   return (
     <>
       <div className="cardbox">
-        {`${data.hNm} ${data.cNm ? `( ${data.cNm} )` : ''}`}
+        <span className="kotitle">{`${data.hNm} ${
+          data.cNm ? `( ${data.cNm} )` : ''
+        }`}</span>
         <br />
-        {`${data.eNm ? `${data.eNm}` : ''}`}
+        <span className="entitle">{`${data.eNm ? `${data.eNm}` : ''}`} </span>
         <br />
-        {`${data.explain ? `${data.explain}` : ''}`}
+        <span className="explain">{`${
+          data.explain ? `${data.explain}` : ''
+        }`}</span>
       </div>
     </>
   );
