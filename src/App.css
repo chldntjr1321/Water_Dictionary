@@ -41,7 +41,7 @@ html {
 }
 .entitle {
   font-size: 14px;
-  font-weight: lighter;
+  font-weight: 350;
 }
 .explain {
   font-weight: 600;
@@ -53,4 +53,18 @@ html {
   margin-top: 20px;
   font-size: 20px;
   font-weight: 500;
+}
+
+.searchbox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  margin-right: 5px;
+}
+.searchicon {
+  cursor: pointer;
+}
+.result-area {
+  margin: 10px 0 10px 0;
 }

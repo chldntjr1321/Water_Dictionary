@@ -19,6 +19,8 @@ import {
   data_en,
   data_num,
 } from '../datas';
+import Minisearchbar from './Minisearchbar';
+import Card from '../components/Card';
 
 function Supplement() {
   const [value, setValue] = useState(0);
@@ -29,6 +31,7 @@ function Supplement() {
 
   return (
     <div className="box">
+      <Minisearchbar index={value} />
       <Box
         sx={{
           maxWidth: { xs: 320, sm: 950 },
@@ -214,25 +217,6 @@ function Supplement() {
         공란으로 남은 설명은 추후 업데이트 예정입니다!
       </div>
     </div>
-  );
-}
-
-// 초성 탭 누르면 보여줄 카드
-function Card({ data }) {
-  return (
-    <>
-      <div className="cardbox">
-        <span className="kotitle">{`${data.hNm} ${
-          data.cNm ? `( ${data.cNm} )` : ''
-        }`}</span>
-        <br />
-        <span className="entitle">{`${data.eNm ? `${data.eNm}` : ''}`} </span>
-        <br />
-        <span className="explain">{`${
-          data.explain ? `${data.explain}` : ''
-        }`}</span>
-      </div>
-    </>
   );
 }
 
